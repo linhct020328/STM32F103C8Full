@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"bai3\startup_stm32f103xb.o"
+"bai3\main.o"
+"bai3\stm32f1xx_it.o"
+"bai3\stm32f1xx_hal_msp.o"
+"bai3\stm32f1xx_hal_gpio_ex.o"
+"bai3\stm32f1xx_hal_tim.o"
+"bai3\stm32f1xx_hal_tim_ex.o"
+"bai3\stm32f1xx_hal_uart.o"
+"bai3\stm32f1xx_hal.o"
+"bai3\stm32f1xx_hal_rcc.o"
+"bai3\stm32f1xx_hal_rcc_ex.o"
+"bai3\stm32f1xx_hal_gpio.o"
+"bai3\stm32f1xx_hal_dma.o"
+"bai3\stm32f1xx_hal_cortex.o"
+"bai3\stm32f1xx_hal_pwr.o"
+"bai3\stm32f1xx_hal_flash.o"
+"bai3\stm32f1xx_hal_flash_ex.o"
+"bai3\stm32f1xx_hal_exti.o"
+"bai3\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "Bai3\Bai3.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Bai3.map" -o Bai3\Bai3.axf

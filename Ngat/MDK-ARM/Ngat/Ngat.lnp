@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"ngat\startup_stm32f103xb.o"
+"ngat\main.o"
+"ngat\stm32f1xx_it.o"
+"ngat\stm32f1xx_hal_msp.o"
+"ngat\stm32f1xx_hal_gpio_ex.o"
+"ngat\stm32f1xx_hal_tim.o"
+"ngat\stm32f1xx_hal_tim_ex.o"
+"ngat\stm32f1xx_hal.o"
+"ngat\stm32f1xx_hal_rcc.o"
+"ngat\stm32f1xx_hal_rcc_ex.o"
+"ngat\stm32f1xx_hal_gpio.o"
+"ngat\stm32f1xx_hal_dma.o"
+"ngat\stm32f1xx_hal_cortex.o"
+"ngat\stm32f1xx_hal_pwr.o"
+"ngat\stm32f1xx_hal_flash.o"
+"ngat\stm32f1xx_hal_flash_ex.o"
+"ngat\stm32f1xx_hal_exti.o"
+"ngat\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "Ngat\Ngat.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Ngat.map" -o Ngat\Ngat.axf

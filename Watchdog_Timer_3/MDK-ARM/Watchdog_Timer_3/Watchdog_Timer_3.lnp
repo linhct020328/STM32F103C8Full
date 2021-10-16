@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"watchdog_timer_3\startup_stm32f103xb.o"
+"watchdog_timer_3\main.o"
+"watchdog_timer_3\stm32f1xx_it.o"
+"watchdog_timer_3\stm32f1xx_hal_msp.o"
+"watchdog_timer_3\stm32f1xx_hal_gpio_ex.o"
+"watchdog_timer_3\stm32f1xx_hal_tim.o"
+"watchdog_timer_3\stm32f1xx_hal_tim_ex.o"
+"watchdog_timer_3\stm32f1xx_hal_wwdg.o"
+"watchdog_timer_3\stm32f1xx_hal.o"
+"watchdog_timer_3\stm32f1xx_hal_rcc.o"
+"watchdog_timer_3\stm32f1xx_hal_rcc_ex.o"
+"watchdog_timer_3\stm32f1xx_hal_gpio.o"
+"watchdog_timer_3\stm32f1xx_hal_dma.o"
+"watchdog_timer_3\stm32f1xx_hal_cortex.o"
+"watchdog_timer_3\stm32f1xx_hal_pwr.o"
+"watchdog_timer_3\stm32f1xx_hal_flash.o"
+"watchdog_timer_3\stm32f1xx_hal_flash_ex.o"
+"watchdog_timer_3\stm32f1xx_hal_exti.o"
+"watchdog_timer_3\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "Watchdog_Timer_3\Watchdog_Timer_3.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Watchdog_Timer_3.map" -o Watchdog_Timer_3\Watchdog_Timer_3.axf
